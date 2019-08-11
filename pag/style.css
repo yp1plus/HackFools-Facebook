@@ -1,0 +1,247 @@
+@font-face{
+  font-family: LeagueSpartan;
+  src: url(LeagueSpartan.woff);
+}
+@font-face{
+  font-family: OpenSans;
+  src: url(opensans.woff);
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar
+{
+    font-family: "LeagueSpartan";
+    width: 100%;
+    height: 7vh;
+    background-color: #450c7d;
+    font-family: "Arial";
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 3;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icone{
+  width: 40px;
+  margin-left: 4%;
+}
+
+.slogan{
+  width: calc(100% - 80px);
+}
+
+#supmenu
+{
+
+    width: 100%;
+    height: 5vh;
+    background-color: whitesmoke;
+    font-family: "Arial";
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2%;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.supmenuitem{
+    margin-left: 3px;
+    padding: 3px;
+
+}
+
+main{
+  width: 100vw;
+  height: 88vh;
+  background-image: linear-gradient(to top, #bb86ef, #710fd1);
+  padding-top: 2%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+#perfilLateral
+{
+  width: 20%;
+  height: 900px;
+  margin-left: 2%;
+}
+
+#pessoal
+{
+    width: 100%;
+    height: 330px;
+    background-color: #450c7d;
+    text-align: center;
+}
+
+.fotoPerfil{
+    width: 70%;
+    height: 55%;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: calc(10% - 4px);
+}
+
+.nomeUsuario{
+  font-size: 22px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color: white;
+  font-family: "LeagueSpartan";
+}
+
+#perfilCentral
+{
+  width: 72%;
+  height: 900px;
+}
+
+#capa{
+  width: 100%;
+  height: 50vh;
+  background-image: url("capa.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#nome{
+  width: 100%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fotoPerfilMenor{
+    height: 70%;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 0 5%;
+}
+
+#timeline{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fazer-post{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa-post{
+  margin-top: 3%;
+  width: 100%;
+  height: 80px;
+}
+
+.botoes{
+  width: calc(100% - 10px);
+  background: #ffffff;
+  padding: 5px;
+}
+
+.post{
+    margin-top: 3%;
+    width: calc(100% - 6%);
+    padding: 3%;
+    background-color: #d8b1ff;
+}
+
+.identificacao{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #450c7d;
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 3%;
+}
+
+.fotoPerfilPostagem{
+  height: 90%;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: 0 5%;
+}
+
+.nomeUsuarioMenor{
+  font-size: 16px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: "LeagueSpartan";
+}
+
+.postagem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fotopostagem{
+  width: 30%;
+}
+
+.legenda{
+  font-size: 20px;
+  color: #450c7d;
+  font-family: "OpenSans";
+}
+
+.comentario{
+  margin-left: 80px;
+  font-family: OpenSans;
+  color: #450c7d;
+}
+
+.identComent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fotocomentario{
+  width: 6%;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 0 5%;
+}
+
+.nomeUsuarioComentario{
+  font-size: 12px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: "LeagueSpartan";
+}
+
+#p2{
+  margin-bottom: 6%;
+}

@@ -1,0 +1,76 @@
+@font-face{
+  font-family: LeagueSpartan;
+  src: url(LeagueSpartan.woff);
+}
+@font-face{
+  font-family: OpenSans;
+  src: url(opensans.woff);
+}
+body{
+  font-family: LeagueSpartan;
+  color: #ffffff;
+  margin: 0;
+  position: absolute;
+}
+.tela{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top, #bb86ef, #710fd1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  font-size: 3vw;
+  width: 100vw;
+  height: 30vh;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closebook{
+  margin: 10vw 0px 0px;
+}
+main{
+  font-family: OpenSans;
+  font-size: 1.5vw;
+  letter-spacing: 4px;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  width: 60vh;
+  height: 50vh;
+  border-radius: 3%;
+  background-color: #450c7d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  font-family: OpenSans;
+  width: 50%;
+  height: 8%;
+}
+.login-botao{
+  text-decoration: none;
+  color: #5c2494;
+  font-family: OpenSans;
+  width: 40%;
+  height: 8%;
+  margin: 7%;
+  background-color: #bb86ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-botao:hover{
+  background-color: #5c2494;
+  color: #ffffff;
+}
